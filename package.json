@@ -1,0 +1,30 @@
+{
+  "name": "tafqit",
+  "version": "0.0.1",
+  "description": "A JavaScript Arabic numbers to words tool.",
+  "main": "tafqit.js",
+  "unpkg": "tafqit.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohsenAlyafei/tafqit.git"
+  },
+  "keywords": [
+    "arqam",
+    "numbers",
+    "arabicnumbers",
+    "arabic-numbers",
+    "arabic numbers",
+    "numbers-to-text",
+    "arabic-to-text",
+    "tafqeet",
+    "tafqit"
+    "tafgeet",
+    "number to arabic",
+    "number to arabic words",
+    "number to words"
+  ],
+  "author": "",
+  "homepage": "https://github.com/MohsenAlyafei/tafqit#readme"
+
+}
