@@ -1,10 +1,9 @@
 ![GitHub](https://img.shields.io/github/license/MohsenAlyafei/tafqit?style=plastic)
 ![GitHub repo size](https://img.shields.io/github/repo-size/MohsenAlyafei/tafqit)
-![npm](https://img.shields.io/npm/v/narabicwords?color=g&style=plastic)
-![npm bundle size](https://img.shields.io/bundlephobia/minzip/narabicwords?label=npm%20size)
-![npm](https://img.shields.io/npm/dw/narabicwords?label=npm%20downloads)
-[![](https://data.jsdelivr.com/v1/package/npm/narabicwords/badge)](https://www.jsdelivr.com/package/npm/narabicwords)
-[![Known Vulnerabilities](https://snyk.io/test/npm/narabicwords/0.0.22/badge.svg)](https://snyk.io/test/npm/narabicwords/0.0.22)
+![npm](https://img.shields.io/npm/v/tafqit?color=g&style=plastic)
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/tafqit?label=npm%20size)
+![npm](https://img.shields.io/npm/dw/tafqit?label=npm%20downloads)
+[![](https://data.jsdelivr.com/v1/package/npm/tafqit/badge)](https://www.jsdelivr.com/package/npm/tafqit)
 
 ![Twitter Follow](https://img.shields.io/twitter/follow/maalyafei?style=social)
 
