@@ -138,3 +138,7 @@ if (Scale) {                                                                // A
 return Words999; //Return the Triple in Words
 }
 }
+
+module.exports = {
+  tafqit
+}
