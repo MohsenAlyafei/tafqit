@@ -1,5 +1,5 @@
 declare module 'tafqit/tafqit'{
-  export function tafqit(NumIn: number, options: {
+  export function tafqit(NumIn: number, options?: {
     Feminine?: "on",
     Miah?: "on",
     SplitHund?: "on",
@@ -9,5 +9,5 @@ declare module 'tafqit/tafqit'{
     TextToFollow?: "on",
     Subject?: [string, string, string, string],
     Legal?: "on" | "off",
-  })
+  }): string;
 }
