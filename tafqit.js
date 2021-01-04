@@ -38,7 +38,7 @@ const TableScales =["","ألف","مليون","مليار","ترليون","كوا
       TableFemale =["","واحدة","اثنتان","ثلاث","أربع","خمس","ست","سبع","ثمان","تسع","عشر"];
 
 function tafqit(NumIn=0,{Feminine,Comma,SplitHund,Miah,Billions,TextToFollow,AG,Subject,Legal}={}) {
-if (NumIn == 0) return "صفر";                          // if 0 or "0" then "zero"
+if (NumIn == 0) return `صفر ${Subject ? Subject[3] : ""}`                          // if 0 or "0" then "zero" or "zero followed by singular with tanween if exists"
 let Triplet, Scale, ScalePos, ScalePlural, TableUnits, Table11_19,NumberInWords= "",IsLastEffTriplet= false,Num_99;
 const ON= "on",                         // Flag to test if Option is ON
  IsAG   = (AG===ON),                    // Option Accusative or Genitive case Grammar?
