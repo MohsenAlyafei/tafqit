@@ -481,6 +481,4 @@ console.log( tafqit("٢٤٥٢٤٥٢٠٠٠") ); // out: "ملياران وأرب�
 
 The following table provides a summary of the numbers to Arabic words basic conversion rules.
 
-![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/5rdg9hmtrkxg3m3rxe8e.png)
-
-
+![Image](/images/mainTable.png?raw=true)
