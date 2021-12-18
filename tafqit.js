@@ -100,7 +100,7 @@ let Num_100  = ~~(Triplet/100),             // Hundreds (1 digit)
     Num_Tens = ~~(Num_99/10),               // Tens   (1 digit)
     Word_100 = "", Word_99= "";             // Holds words for Hundreds & 0-99
 
-if (Feminine === ON && IsLastEffTriplet)  { // If Feminine, use the Feminine table if Last Effective Triplet
+if (Feminine === ON && !Scale)  {          // If Feminine, use the Feminine table if no scale
   TableUnits   = [...TableFemale]; Table11_19= [...TableFemale];// Create copies of Feminine Table for manipulation
   Table11_19[0]= TableMale[10];             // Borrow word "عشر" from Masculine's Table for use in 11-19
   Table11_19[1]= Ehda;                      // Feminine starting words for 11
