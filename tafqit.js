@@ -54,7 +54,7 @@ const ON= "on",                         // Flag to test if Option is ON
  IsSubject = Array.isArray(Subject) && Subject.length===4;        // Check for Subject Array Names
 
 TextToFollow = TextToFollow === ON;     // TextToFollow Option Flag
-if(IsSubject) TextToFollow = false;     // Disable TextToFollow Option if Subject Option is ON
+if(IsSubject) TextToFollow = true;     // Enable TextToFollow Option if Subject Option is ON
 NumIn+="";                              // Make numeric string
 NumIn =""+NumIn.replace(/[٠-٩]/g, d => "٠١٢٣٤٥٦٧٨٩".indexOf(d)); // Convert Arabic-Indic Numbers to Arabic if any
 Miah= (Miah===ON) ? "مئة" : "مائة";     // Select chosen Miah (Hundred) Option
